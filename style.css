@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* Reset Css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Menu Style Start */
+
+.logo-area {
+    width: 30%;
+    float: left;
+  }
+  .logo-area h1 {
+    font-size: 40px;
+    line-height: 5px;
+    color: #FFA500;
+  }
+  .main-menu {
+    width: 60%;
+    float: right;
+  }
+  .main-menu nav ul li {
+    display: inline-block;
+  }
+  .main-menu nav ul {
+    float: right;
+  }
+  .main-menu nav ul li {
+    margin-left: 25px;
+    position: relative;
+  }
+  .main-menu nav ul li> a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFA500;
+    padding: 25px 0px;
+    display: inline-block;
+    transition: .3s;
+  }
+  .main-menu nav ul li:hover > a{
+    color: #fff;
+  }
+  .primary-header {
+    height: 80px;  
+  }
+  .header-section{
+    background-color: #000;
+  }
+
+  /* Submenu Style Start */
+
+  ul .Submenu {
+    position: absolute;
+    width: 210px;
+    background: #000;
+    top: 110%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+} 
+  
+
+.main-menu nav ul li ul.Submenu li > a {
+    font-size: 16px;
+    padding: 10px 0px;
+    margin-left: 7px;
+    text-transform: capitalize;
+    transition: .3s;
+  }
+
+  .main-menu nav ul li:hover ul.Submenu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+  }
+  .main-menu nav ul li ul.Submenu li:hover a{
+    padding-left: 20px;
+  }
+  .main-menu nav ul li ul.Submenu li {
+    margin-left: 0px;
+    border-bottom: 1px solid #666;
+    display: block;
+  }
+
+  /* Hero Section Start */
+  .hero-Area{
+    background-image: url('img/hero-banner.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    height: 600px;
+    margin-top: -50px;
+  }
+ 
+  .hero-half {
+    width: 48%;
+    float: left;
+  }
+  .hero-half h1 {
+    line-height: 70px;
+  }
+  .hero-half h1 span {
+    color: orange;
+  }
+  .hero-right {
+    float: right;
+  }
+  .hero-right img{
+    width: 100%;
+    padding-top: 43px;
+  }
+  a.btn {
+    color: #fff;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 12px 35px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .hero-half p {
+    padding-top: ;
+    padding-bottom: 20px;
+
+  }
+
+  /* 2nd Hero Strat */
+  .SecHalfLeft {
+    width: 45%;
+    float: left;
+  }
+  .SecHalfRight h1 span {
+    color: orange;
+  }
+  .SecHalfRight h1{
+    line-height: 70px;
+  }
+  .SecHalfRight {
+    width: 45%;
+    float: Right;
+  }
+  .SecheroArea {
+    display: inline-block;
+  }
+  .SecHalfLeft img {
+    width: 100%;
+    padding-top: 43px;
+
+  }
+  .SecHalfRight p {
+    margin-bottom: 35px;
+    margin-top: -7px;
+  }
+  .SecHeroSection{
+    background-image: url('img/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 90px;
+    padding: 30px 0px;
+    overflow: hidden;
+  }
+
+  /* Experinece Style Start */
+
+.ExperineceSection{
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.ExpArea{
+  background-image: url('img/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  height: 300px;
+}
+
+  .ExpWrapper h1 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .singleExp {
+    width: 44%;
+    float: left;
+    box-shadow: 5px 7px 40px #D3D3D3;
+    height: 350px;
+    padding: 0px 20px;
+    background-color: #fff;
+  }
+  .singleExp h1{
+    text-align: left;
+  }
+  .singleExp h3 {
+    color: orange;
+  }
+  .SingleExpRight{
+    float: right;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 100%;
+    border-image-slice: 1;
+  }
+  .singleExp h1{
+    font-size: 40px;
+  }
+  
+ .LeftExp{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 100%;
+  border-image-slice: 1;
+ }
+
+ /* Footer Style Start */
+ .footerCrredit p {
+  font-size: 18px;
+  text-align: center;
+}
+.footerCrredit{
+  background: #000;
+}
+.footerCrredit P{
+  color: #fff;
+  margin: 0;
+  padding: 10px 0px;
+
+}
+.footerCrredit a {
+  color: orange;
+}
