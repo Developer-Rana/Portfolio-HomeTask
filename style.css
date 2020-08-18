@@ -40,7 +40,7 @@ h3{
   .logo-area h1 {
     font-size: 40px;
     line-height: 5px;
-    color: #FFA500;
+    color: #fff;
   }
   .main-menu {
     width: 60%;
@@ -59,13 +59,13 @@ h3{
   .main-menu nav ul li> a {
     font-size: 18px;
     text-transform: uppercase;
-    color: #FFA500;
+    color: #fff;
     padding: 25px 0px;
     display: inline-block;
     transition: .3s;
   }
   .main-menu nav ul li:hover > a{
-    color: #fff;
+    color: #270BEA;
   }
   .primary-header {
     height: 80px;  
@@ -80,11 +80,11 @@ h3{
     position: absolute;
     width: 210px;
     background: #000;
-    top: 110%;
+    top: 112%;
     visibility: hidden;
     opacity: 0;
     transition: .3s;
-    border-top: 5px solid #FF68A3;
+    border-top: 5px solid #270BEA;
 } 
   
 
@@ -99,7 +99,7 @@ h3{
   .main-menu nav ul li:hover ul.Submenu{
     opacity: 1;
     visibility: visible;
-    top: 100%;
+    top: 101%;
   }
   .main-menu nav ul li ul.Submenu li:hover a{
     padding-left: 20px;
